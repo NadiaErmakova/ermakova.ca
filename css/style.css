@@ -1,0 +1,266 @@
+body{
+	background-image1:url(../images/bg1.png); 
+	background-repeat:repeat;
+	background-color:#F9F9F9;
+	
+}
+.main{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+@media (min-width: 900px){
+	.main{
+		width: 900px;
+	}
+}
+.main-content{
+	min-height: 480px;
+	padding-bottom: 10px;
+}
+/*
+#main-left-shadow{
+	position:absolute;
+	top: 0;
+	left: 0;
+	visibility:hidden;
+	background1:url(../images/bg_left.png) repeat-y;
+}
+#main-right-shadow{
+	position:absolute;
+	top: 0;
+	right:0;	
+	visibility:hidden;
+	background1:url(../images/bg_right.png) repeat-y right;
+}
+*/
+
+p{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#633;	
+	text-align:justify;
+}
+h1{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:20px;
+	text-indent:20px; 
+	color:#024259;
+	
+}
+h2{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:16px;
+	color:#024259;
+		
+}
+#inside_cont{
+	padding:30px;
+	padding-left:60px;	
+	padding-right1:50px;
+}
+
+
+
+/*menu*/
+.nav-pills {
+	text-align:left;
+	background-color1:#999999;
+}
+
+.nav-pills a{
+	color: #999999;
+	font-size:22px;
+	text-align:right;
+}
+.nav-pills>.active>a, .nav-pills>.active>a:hover, .nav-pills>.active>a:focus {
+	color: inherit;
+	background-color:transparent;
+}
+.nav-pills a:hover, .nav-pills>li>a:hover{
+	background-color:transparent;
+	text-decoration:underline;
+}
+.nav-pills>.active>a:hover{
+	text-decoration:underline;
+}
+.masthead h3 {
+	margin-left: 40px;
+	margin-top: 20px;
+	height: 80px;
+	text-indent:-100000px;
+	background: url(../images/logo.png) no-repeat;
+}
+#myCarousel{
+	margin-top: 5em;
+	margin-bottom: 2em;
+}
+.footer p {
+	text-align:center;
+	color:#024259;
+}
+a.textlink{
+	font-size:12px;	
+	font-style:italic;
+	color:#024259;
+}
+a.textlink:hover{
+	text-decoration:underline;
+}
+.article_img_right{
+	float:right;
+	margin: 10px;
+	margin-right: 0px;
+}
+
+
+/*.paspartu_left{
+    padding: 5px; 
+    background: #f0f0f0; 
+    border: 1px solid #633;
+	float:left;
+	margin-left: 0px;
+}
+.paspartu_right{
+    padding: 5px; 
+    background: #f0f0f0; 
+    border: 1px solid #633;
+	float:right;
+	margin-right: 0px;
+}
+.gallery{
+    padding: 8px; 
+    background: #f0f0f0; 
+    border: 1px solid #633;
+	margin:0px;
+	text-align:center;	
+}
+.gallery-cont .row-fluid {
+	margin-top:30px;
+}
+.gallery-cont .row-fluid img {
+	display: block;
+	max-width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}*/
+
+.left, .right{
+	margin1: 15px;
+}
+.right{
+	float:right;
+	margin-right: 0px;
+}
+.left{
+	float:left;
+	margin-left: 0px;
+}
+.center{
+	float:centre;
+}
+.clear{
+	clear:both;
+}
+
+#table_contact{
+	width: 100%;
+}
+
+input.input-wide, textarea.input-wide{
+	width: 100%;
+}
+/*home page style*/
+
+#home_page{
+	overflow: hidden;
+	min-height: 480px;
+	width:980px;
+	margin-top:50px;
+	padding-bottom:40px;
+	color:#ffffff;
+}
+#home_page *{
+	color:inherit;
+}
+
+.home-box{
+	float:left;
+	margin:7px;
+	height:183px;
+}
+#box1{
+	background-color:#008ca1;
+	width:370px;
+}
+#box1 img{
+	padding-left:50px;
+	padding-top:60px;
+}
+#box2{
+	background-color:#f59400;
+	width:370px;
+}
+#box3{
+	background-color:#f44c2f;
+	width:185px;
+}
+#box2 li{
+	padding-top:5px;
+	font-size:17px;
+	line-height1:18px;
+}
+#box4{
+	background-color:#DCDCDC;
+	width:370px;
+}
+#box4 h1{
+	text-align:center;	
+	color:#03648b;
+}
+#box4 img{
+	padding-left:5px;
+	padding-top1:60px;
+}
+
+#box5{
+	background-color:#23b8e1;
+	width:185px;
+}
+#box5 h1{
+	text-align:center;
+	margin-top:30px;
+}
+
+#box6{
+	background-color:;
+	width:370px;
+}
+#box7{
+	background-color:#a143b9;
+	width:370px;
+}
+#box7 p{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:14px;	
+	line-height:16px;	
+	padding:13px;
+}
+#box8{
+	background-color:#5c7c9f;
+	width:370px;
+}
+#box8 img{
+	padding-left:30px;
+	padding-top:50px;
+}
+
+#box9{
+	background-color:#078e07;
+	width:185px;
+}
+#box9 img{
+	padding-top:50px;
+	padding-left:3px;
+}
