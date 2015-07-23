@@ -21,7 +21,8 @@
             <ul class="nav nav-pills pull-right">
                     <li><a href="index.html">home</a></li>
                     <li><a href="about.html">about</a></li>
-                    <li><a href="portfilio.html">portfilio</a></li>
+                    <li><a href="portfolio.html">portfilio</a></li>
+                    <li><a href="testimonials.html">testimonials</a></li>
                     <li><a href="education.html">education</a></li>
                     <li><a href="contact.html">contact</a></li>
             </ul>
@@ -109,24 +110,8 @@ $(function(){
 	}
 	fixShadow();
 	setTimeout(fixShadow, 500);
-	setTimeout(fixShadow, 5000);	
-});
-$(function(){
-	$("form").on("submit",function(){
-		var data={
-			name: $("#name").val(),
-			email: $("#email").val(),
-			message: $("#message").val(),
-		};
-		$.ajax({
-			url:"http://ermakovaca-hrd.appspot.com/contact.do",
-			method :"POST",
-			data:data,
-		}).always(function(){
-			document.location="index.html";
-		});
-		return false;
-	});
+	setTimeout(fixShadow, 5000);
+	
 });
 </script>
 <!-- InstanceBeginEditable name="footerscripts" -->
