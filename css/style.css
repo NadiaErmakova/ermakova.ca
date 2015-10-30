@@ -39,34 +39,49 @@ body{
 p{
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size:16px;
-	color:#633;	
+	color:#4c5454;	
 	text-align:justify;
 }
 p a{
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size:16px;
-	color:#633;	
+	color:#4c5454;	
 	text-align:justify;
 }
 h1{
-	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family:Arial, Helvetica, sans-serif;
 	font-size:20px;
 	text-indent:20px; 
-	color:#080903;
-	
+	color:#4c5454;
+	font-weight:100;	
+	font-variant:small-caps; 
+	text-align:center;
+	letter-spacing:4px;	
+}
+.dev_process{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:10px;
+	color:#03648b;
+}
+.letter_spacing{
+	font-variant:small-caps; 
+	letter-spacing:3px;		
+	padding-top:14px;
 }
 h2{
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size:16px;
-	color:#024259;
+	color:#4c5454;
 		
 }
 #inside_cont{
 	padding:30px;
 	padding-left:60px;	
-	padding-right1:50px;
+	padding-right:50px;
 }
-
 
 
 /*menu*/
@@ -93,18 +108,19 @@ h2{
 }
 .masthead{
 }
-.masthead h3 {
+.masthead h3 a{
 	margin-left: 30px;
 	margin-top: 20px;
-	height: 60px;
-	width: 220px;
+	height: 75px;
+	width: 280px;
 	text-indent:-100000px;
 	background: url(../images/new_logo.png) no-repeat;
 	background-size: contain;
 	display:inline-block;
 }
 .masthead .nav{
-	margin-top:50px;
+	margin-top1:50px;
+	margin-bottom:50px;
 }
 #myCarousel{
 	margin-top: 5em;
@@ -112,12 +128,12 @@ h2{
 }
 .footer p {
 	text-align:center;
-	color:#024259;
+	color:#4c5454;
 }
 a.textlink{
 	font-size:12px;	
 	font-style:italic;
-	color:#024259;
+	color:#4c5454;
 }
 a.textlink:hover{
 	text-decoration:underline;
