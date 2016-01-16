@@ -82,6 +82,7 @@
 		</div>
     </div>
         <hr/>
+        
 <!-- InstanceEndEditable -->
         </div>
 
@@ -115,5 +116,24 @@ $(function(){
 });
 </script>
 <!-- InstanceBeginEditable name="footerscripts" -->
+<script>
+$(function(){
+	$("form").on("submit",function(){
+		var data={
+			name: $("#name").val(),
+			email: $("#email").val(),
+			message: $("#message").val(),
+		};
+		$.ajax({
+			url:"http://ermakovaca-hrd.appspot.com/contact.do",
+			method :"POST",
+			data:data,
+		}).always(function(){
+			document.location="index.html";
+		});
+		return false;
+	});
+});
+</script>
 <!-- InstanceEndEditable -->
 <!-- InstanceEnd --></html>
