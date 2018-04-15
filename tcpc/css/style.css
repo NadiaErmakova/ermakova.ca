@@ -713,9 +713,11 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 .slider {
-  background: url("../images/slider-bg.JPG") no-repeat;
+  background: url("../images/slider-bg.jpg") no-repeat;
+  -webkit-background-size: cover;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll; /* ipad/iphone doesn't support combination of fixed and cover*/ 
+  deleted-background-attachment: fixed;
   background-position: 10% 0%;
   padding: 200px 0 280px 0;
   position: relative;
@@ -843,10 +845,12 @@ font header .navbar-default .navbar-nav li a:hover {
   background-position: 50% 94px;
   display: block;
   position: relative;
-  background-attachment: fixed;
+  -webkit-background-size: cover;
+  background-size: cover;  
+  background-attachment: scroll; /* ipad/iphone doesn't support combination of fixed and cover*/ 
+  deleted-background-attachment: fixed;  
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
   padding: 100px 0;
 }
 
@@ -1093,16 +1097,20 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 .bg-1 {
-  background-image: url("../images/call-to-action-bg.JPG");
+  background-image: url("../images/call-to-action-bg.jpg");
+  -webkit-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll; /* ipad/iphone doesn't support combination of fixed and cover*/ 
+  deleted-background-attachment: fixed;
 }
 
 .bg-2 {
-  background: url("../images/featue-bg.JPG");
+  background: url("../images/featue-bg.jpg");
+  -webkit-background-size: cover;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll; /* ipad/iphone doesn't support combination of fixed and cover*/ 
+  deleted-background-attachment: fixed;
 }
 
 .widget {
