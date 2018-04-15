@@ -713,7 +713,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 .slider {
-  background: url("../images/slider-bg.jpg") no-repeat;
+  background: url("../images/slider-bg.JPG") no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   background-attachment: scroll; /* ipad/iphone doesn't support combination of fixed and cover*/ 
@@ -1097,7 +1097,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 .bg-1 {
-  background-image: url("../images/call-to-action-bg.jpg");
+  background-image: url("../images/call-to-action-bg.JPG");
   -webkit-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1106,7 +1106,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 .bg-2 {
-  background: url("../images/featue-bg.jpg");
+  background: url("../images/featue-bg.JPG");
   -webkit-background-size: cover;
   background-size: cover;
   background-attachment: scroll; /* ipad/iphone doesn't support combination of fixed and cover*/ 
