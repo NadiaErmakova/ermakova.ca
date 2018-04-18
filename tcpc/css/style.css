@@ -713,7 +713,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 .slider {
-  background: url("../images/slider-bg.JPG") no-repeat;
+  background: url("../images/slide1.JPG") no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   background-attachment: scroll; /* ipad/iphone doesn't support combination of fixed and cover*/ 
