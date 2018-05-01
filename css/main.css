@@ -192,7 +192,6 @@ INTRO CONTAINER
     color: white;
 	font-weight: lighter; 
     font-size: 50px; 
-    font-weight1: 200px;
     font-style: italic; 
 }
 .vertical-align {
@@ -557,7 +556,7 @@ MEDIA QUERIES MOBILE
         font-size: 21px;
     }
     .centre-title {
-        font-size: 50px;
+        font-size: 22px;
     }
 	
     .background_content h1 {
@@ -575,7 +574,7 @@ MEDIA QUERIES TABLET
 =========================*/
 
 
-    @media (min-width: 400px) { 
+@media (min-width: 400px) { 
     .starter_container {
         height: 100%;
     }
@@ -588,11 +587,11 @@ MEDIA QUERIES TABLET
 MEDIA QUERIES TABLET
 =========================*/
 
-    @media (min-width: 660px) { 
+@media (min-width: 660px) { 
   
-        .starter_container {
-            height: 100%;
-        }
+    .starter_container {
+        height: 100%;
+    }
 
     /*========================
     NAV
@@ -712,7 +711,7 @@ MEDIA QUERIES TABLET
         padding: 0;
         border-bottom: 10px solid #fff;
     }
-}
+
     /*========================
     Social Connect
     =========================*/
@@ -825,6 +824,7 @@ MEDIA QUERIE DESKTOP
         and 
         background-size cover
         doesn't work together
+        So use scroll instead
     */
     .background_content {
         background-attachment: scroll !important;
