@@ -817,3 +817,16 @@ MEDIA QUERIE DESKTOP
         font-size: 30px;
     }
 }
+
+@supports (-webkit-overflow-scrolling: touch) {
+    
+    /* Fix bug in iOS:
+        background-attachment  fixed
+        and 
+        background-size cover
+        doesn't work together
+    */
+    .background_content {
+        background-attachment: scroll;
+    }
+}
