@@ -827,6 +827,6 @@ MEDIA QUERIE DESKTOP
         doesn't work together
     */
     .background_content {
-        background-attachment: scroll;
+        background-attachment: scroll !important;
     }
 }
