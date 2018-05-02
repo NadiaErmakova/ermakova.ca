@@ -190,9 +190,10 @@ INTRO CONTAINER
 }
 .centre-title {
     color: white;
-	font-weight: lighter; 
-    font-size: 50px; 
-    font-style: italic; 
+    font-weight: lighter;
+    font-size: 50px;
+    font-style: italic;
+    text-shadow: 0 1px 0 black;
 }
 .vertical-align {
     display: flex;
@@ -235,30 +236,25 @@ INTRO CONTAINER
     border-bottom: 8px solid #fff;
 }
 
-.beer.background_content{
+.imagination.background_content{
     background: url('../images/IMG_1023.jpg') no-repeat center center; 
     background-size: cover;
     background-position: 70% 50%;
 }
 
-.bread.background_content{
-    background: url('../images/bread.jpg') no-repeat center center; 
-    background-size: cover;
-    background-position: 70% 50%;
-}
  .featured.background_content{
     background: url('../images/IMG_1139.jpg') no-repeat center center; 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
- .pricing.background_content{
+ .food_photography.background_content{
     background: url('../images/IMG_9057.jpg') no-repeat center center; 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
-.bread.background_content{
+.experience.background_content{
     background: url('../images/IMG_2008.jpg') no-repeat center center; 
     background-size: cover;
     background-position: center;
@@ -573,7 +569,6 @@ MEDIA QUERIES MOBILE
 MEDIA QUERIES TABLET
 =========================*/
 
-
 @media (min-width: 400px) { 
     .starter_container {
         height: 100%;
@@ -589,9 +584,9 @@ MEDIA QUERIES TABLET
 
 @media (min-width: 660px) { 
   
-    .starter_container {
-        height: 100%;
-    }
+     .starter_container {
+          height: 100%;
+     }
 
     /*========================
     NAV
@@ -711,7 +706,7 @@ MEDIA QUERIES TABLET
         padding: 0;
         border-bottom: 10px solid #fff;
     }
-
+}
     /*========================
     Social Connect
     =========================*/
