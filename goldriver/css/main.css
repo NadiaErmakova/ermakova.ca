@@ -646,6 +646,11 @@ MEDIA QUERIES TABLET
         border: 5px solid #6D903C;
     }
 
+	.product-title{
+		text-align:center;
+		text-decoration:underline red;
+	}
+		
     /*========================
     DESCRIPTION BODY CONTENT
     =========================*/
