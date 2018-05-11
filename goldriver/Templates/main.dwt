@@ -64,8 +64,8 @@
             <div class="container"> 
                 <div><b>Gold River Seafood Ltd.</b></div>
                 <div>Address: 28989 Marsh McCormick Road, Abbotsford BC, V4X 2B4</div>
-                <div>Phone: 1-604-560-6443<br/>
-                Fax: 1-604-560-6325</div>
+                <div><a href="tel:+16045606443">Phone: 1-604-560-6443</a><br/>
+                <a href="tel:+16045606325">Fax: 1-604-560-6325</a></div>
             </div>
         </footer>
 

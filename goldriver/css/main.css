@@ -16,6 +16,10 @@ footer {
 	color: white;
 	font-size: 18px;
 }
+footer a{
+	color:white;
+	font-size: 17px;
+}
 .bg-dark {
     background-color: black!important;
 }
