@@ -23,6 +23,11 @@
         <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css"/>
         <link href="vendor/swiper/swiper.min.css" rel="stylesheet" type="text/css"/>
         <link href="vendor/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet" type="text/css"/>
+		
+		<!-- photoswipe(images popup) begin --> 
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/photoswipe.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/default-skin/default-skin.min.css" />
+		<!-- photoswipe(images popup) end --> 
 
         <!-- Theme Styles -->
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
@@ -165,24 +170,24 @@
                     </div>
                     <div class="col-md-6 col-md-pull-5">
                         <!-- Masonry Grid -->   
-                        <div class="row g-row-col--5 js__masonry">
-                            <div class="col-xs-6 col-sm-6 col-md-1 js__masonry-sizer"></div>
-                            <div class="col-xs-6 g-full-width--xs g-margin-b-10--xs js__masonry-item">
+						<div class="row g-row-col--5 js__masonry photoswipe-gallery">
+                            <a href="img/products/black_cod.jpg" data-size="1920x1382" class="col-xs-6 g-full-width--xs g-margin-b-10--xs js__masonry-item">
                                 <img class="img-responsive g-width-100-percent--xs" src="img/products/black_cod.jpg" alt="Image">
-                            </div>
-                            <div class="col-xs-6 g-full-width--xs g-margin-t-25--md g-margin-b-10--xs js__masonry-item">
+                            </a>							
+                            <a href="img/products/blackcod_fillet.jpg" data-size="1200x700" class="col-xs-6 g-full-width--xs g-margin-t-25--md g-margin-b-10--xs js__masonry-item">
                                 <img class="img-responsive g-width-100-percent--xs" src="img/products/blackcod_fillet.jpg" alt="Image">
-                            </div>
-                            <div class="col-xs-6 g-full-width--xs g-margin-b-10--xs js__masonry-item">
+                            </a>							
+                            <a href="img/products/black_cod2.jpg" data-size="1920x2181" class="col-xs-6 g-full-width--xs g-margin-b-10--xs js__masonry-item">
                                 <img class="img-responsive g-width-100-percent--xs" src="img/products/black_cod2.jpg" alt="Image">
-                            </div>
-                            <div class="col-xs-6 g-full-width--xs g-margin-b-10--xs js__masonry-item">
+                            </a>							
+                            <a href="img/products/blackcod4.jpg" data-size="1024x724" class="col-xs-6 g-full-width--xs g-margin-b-10--xs js__masonry-item">
                                 <img class="img-responsive g-width-100-percent--xs" src="img/products/blackcod4.jpg" alt="Image">
-                            </div>
-                            <div class="col-xs-6 g-full-width--xs g-margin-b-10--xs js__masonry-item">
+                            </a>
+                            <a href="img/products/blackcod5.jpg" data-size="1920x1217" class="col-xs-6 g-full-width--xs g-margin-b-10--xs js__masonry-item">
                                 <img class="img-responsive g-width-100-percent--xs" src="img/products/blackcod5.jpg" alt="Image">
-                            </div>                            
+                            </a>                            
                         </div>
+
                         <!-- End Masonry Grid -->
                     </div>
                 </div>
@@ -202,10 +207,10 @@
             <div class="row">
                 <div class="col-sm-2 g-margin-b-20--xs g-margin-b-0--md">
                     <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
-                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Home</a></li>
-                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">About</a></li>
-                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Products</a></li>
-                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Contact</a></li>
+                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="index.html">Home</a></li>
+                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="index.html#about">About</a></li>
+                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="index.html#products">Products</a></li>
+                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="index.html#contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-2 g-margin-b-20--xs g-margin-b-0--md">
@@ -220,13 +225,13 @@
                     <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
                         <li><a class="g-font-size-15--xs g-color--white-opacity" href="fish_terms.html">Glossary of fish terms</a></li>
                         <li><a class="g-font-size-15--xs g-color--white-opacity" href="shipping_terms.html">Glossary of shipping term</a></li>
-                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Shipping methods</a></li>
+                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="shipping_methods.html">Shipping methods</a></li>
                         <li><a class="g-font-size-15--xs g-color--white-opacity" href="img/Coldfish-Credit-Application-2019.pdf" target="_blank">Credit application form</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 s-footer__logo g-padding-y-50--xs g-padding-y-0--md">
                     <h3 class="g-font-size-18--xs g-color--white">ColdFish Seafoods</h3>
-                    <p class="g-color--white-opacity">We are a certified Marine Stewardship Council fishery, supporting sustainable fishing practices. </p>
+                    <p class="g-color--white-opacity">is committed to providing clients with exceptional products and is therefore certified by the <a href="http://cert.msc.org/supplierdirectory/VController.aspx?pk=4a8b223b-381c-4218-9e87-a9b03008b368&Path=9e3bd218-316e-4138-b1c3-a34c8faba917">Marine Stewardship Council (MSC)</a>, <a href="http://seafood.ocean.org/" target="_blank">Ocean Wise</a> and registered with both <a href="http://www.traceregister.com/" target="_blank">Trace Register</a> and <a href="https://www.seachoice.org/" target="_blank"> SeaChoice </a>. </p>
                 </div>
             </div>
         </div>
@@ -274,11 +279,11 @@
 <script type="text/javascript" src="vendor/jquery.parallax.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsXUGTFS09pLVdsYEE9YrO2y4IAncAO2U"></script>
 <script type="text/javascript" src="vendor/jquery.wow.min.js"></script>
-
 		
 <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
 
+		
 <!-- General Components and Settings -->
 <script type="text/javascript" src="js/global.min.js"></script>
 <script type="text/javascript" src="js/components/header-sticky.min.js"></script>
@@ -292,6 +297,14 @@
 <script type="text/javascript" src="js/components/wow.min.js"></script>
 <!--========== END JAVASCRIPTS ==========-->
 
+
+<!-- photoswipe(images popup) begin --> 
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/photoswipe.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/photoswipe-ui-default.min.js"></script>
+<script src="js/photoswipe/photoswipe_loader.js"></script>
+<!-- photoswipe(images popup) end --> 
 
 </body>
 <script>
