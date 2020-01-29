@@ -17,7 +17,7 @@
 	letter-spacing:7px;
 }
 .title::first-letter { 
-    color: red;
+    color: #1f0128;
 }
 
 .main{
@@ -28,7 +28,7 @@
 }
 
 .title::first-letter { 
-    color: red;
+    color: #1f0128;
 }
 
 .about{
@@ -40,7 +40,7 @@
 	text-indent: 10px;
 }
 .main p a:hover{
-	color:red;	
+	color:#1f0128;	
 	text-decoration:none;
 }
 .main h1{
