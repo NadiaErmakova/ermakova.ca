@@ -6532,7 +6532,7 @@ input, select, textarea {
 				height: 100%;
 				background-color: rgba(0, 0, 0, 0.5);
 				opacity: 0;
-				padding: 2rem;
+				padding: 1rem;
 				z-index: 1;
 				font-size: 0.8rem;
 			}
@@ -6915,7 +6915,7 @@ input, select, textarea {
 				height: 100%;
 				background-color: rgba(0, 0, 0, 0.5);
 				opacity: 0;
-				padding: 3rem;
+				padding: 1rem;
 				z-index: 1;
 				font-size: 0.8rem;
 			}
@@ -8615,3 +8615,21 @@ input, select, textarea {
     -o-background-size: cover;
     background-size: cover;
 }
+
+.banner-image-bg-top-right {
+	background-position-x: right;
+	background-position-y: top;
+}
+
+/*
+@media screen and (min-width: 1299px) {
+
+	.banner {
+		background: no-repeat;
+		background-position-x: 0 51%;
+		background-size: 51%;
+		background-image: linear-gradient(to left, #99262b , #cf6368);
+	}
+
+}
+*/
