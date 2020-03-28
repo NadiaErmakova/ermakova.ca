@@ -1,5 +1,4 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
 /*
 	Editorial by HTML5 UP
@@ -1526,9 +1525,8 @@ button,
   color: #f56a6a !important;
   cursor: pointer;
   display: inline-block;
-  font-family: "Roboto Slab", serif;
   font-size: 0.8em;
-  font-weight: 700;
+  font-weight: 400;
   height: 3.5em;
   letter-spacing: 0.075em;
   line-height: 3.5em;
@@ -2163,7 +2161,6 @@ body {
   #header .logo {
     border-bottom: 0;
     color: inherit;
-    font-family: "Roboto Slab", serif;
     font-size: 1.125em; }
   #header .icons {
     text-align: right; }
@@ -2199,7 +2196,7 @@ body {
     -moz-align-self: center;
     -webkit-align-self: center;
     -ms-align-self: center;
-    align-self: stretch;
+    align-self: center;
     -moz-flex-grow: 1;
     -webkit-flex-grow: 1;
     -ms-flex-grow: 1;
@@ -2209,7 +2206,6 @@ body {
     -ms-flex-shrink: 1;
     flex-shrink: 1;
     width: 50%;
-    max-width: 48rem;
     margin: 0;
   }
   #banner .image {
@@ -2325,7 +2321,6 @@ body {
   -ms-user-select: none;
   user-select: none;
   color: #3d4449;
-  font-family: "Roboto Slab", serif;
   font-weight: 400;
   letter-spacing: 0.075em;
   list-style: none;
