@@ -1363,15 +1363,15 @@ body.is-preload .gallery.onload-fade-in article .image img {
     padding: 7rem 3.5rem 5rem 3.5rem ;
     margin: 0 auto;
     max-width: 100%;
-    width: 64rem;
+    _width: 64rem;
 }
 
     .wrapper.style1 > .inner.medium {
-        width: 48rem;
+        _width: 48rem;
     }
 
     .wrapper.style1 > .inner.small {
-        width: 32rem;
+        _width: 32rem;
     }
 
 @media screen and (max-width: 1680px) {

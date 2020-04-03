@@ -1,0 +1,288 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Nicole Oliver</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="../assets/css/main.css" />
+<link rel="stylesheet" href="../assets/css/gallery.css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="show-gallery" type="boolean" value="false" -->
+</head>
+<body class="is-preload">
+
+	<!-- TemplateBeginIf cond="_document['show-gallery']" -->
+		<script>
+			document.body.className += " has-gallery";
+		</script>
+	
+		<section id="gallery_section" class="wrapper style1 align-center">
+
+				<div class="gallery style2 medium lightbox ">
+					<article>
+						<a href="images/gallery/fulls/01.jpg" class="image">
+							<img src="images/gallery/thumbs/01.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Nicole Oliver</h3>
+						<!--
+							<p></p>
+							<ul class="actions fixed">
+								<li><span class="button small">Click >>></span></li>
+							</ul>
+						-->
+						</div>
+					</article>
+					<article>
+						<a href="images/gallery/fulls/britney.jpg" class="image">
+							<img src="images/gallery/thumbs/britney.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Nicole Oliver</h3>
+						</div>
+					</article>
+					<article>
+						<a href="images/gallery/fulls/02.jpg" class="image">
+							<img src="images/gallery/thumbs/02.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Nicole Oliver</h3>
+						</div>
+					</article>
+					<article>
+						<a href="images/gallery/fulls/sausage_party.jpg" class="image">
+							<img src="images/gallery/thumbs/sausage_party.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Nicole Oliver</h3>
+						</div>
+					</article>
+					<article>
+						<a href="images/gallery/fulls/03.jpg" class="image">
+							<img src="images/gallery/thumbs/03.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Nicole Oliver</h3>
+						</div>
+					</article>
+					<article>
+						<a href="images/gallery/fulls/fallen_hearts.jpg" class="image">
+							<img src="images/gallery/thumbs/fallen_hearts.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Nicole Oliver</h3>
+						</div>
+					</article>
+					<article>
+						<a href="images/gallery/fulls/04.jpg" class="image">
+							<img src="images/gallery/thumbs/04.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Nicole Oliver</h3>
+						</div>
+					</article>
+					<article>
+						<a href="images/gallery/fulls/mylittlepony.jpg" class="image">
+							<img src="images/gallery/thumbs/mylittlepony.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Nicole Oliver</h3>
+						</div>
+					</article>
+					<article>
+						<a href="images/gallery/fulls/05.jpg" class="image">
+							<img src="images/gallery/thumbs/05.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Nicole Oliver</h3>
+						</div>
+					</article>
+					<article>
+						<a href="images/gallery/fulls/high_castle.jpg" class="image">
+							<img src="images/gallery/thumbs/high_castle.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Nicole Oliver</h3>
+						</div>
+					</article>
+					<article>
+						<a href="images/gallery/fulls/06.jpg" class="image">
+							<img src="images/gallery/thumbs/06.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Nicole Oliver</h3>
+						</div>
+					</article>
+					<article>
+						<a href="images/gallery/fulls/wonder.jpg" class="image">
+							<img src="images/gallery/thumbs/wonder.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Nicole Oliver</h3>
+						</div>
+					</article>
+					<article>
+						<a href="images/gallery/fulls/07.jpg" class="image">
+							<img src="images/gallery/thumbs/07.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Nicole Oliver</h3>
+						</div>
+					</article>
+					<article>
+						<a href="images/gallery/fulls/perfectchristmas.jpg" class="image">
+							<img src="images/gallery/thumbs/perfectchristmas.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Nicole Oliver</h3>
+						</div>
+					</article>
+					<article>
+						<a href="images/gallery/fulls/08.jpg" class="image">
+							<img src="images/gallery/thumbs/08.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Nicole Oliver</h3>
+						</div>
+					</article>
+					<article>
+						<a href="images/gallery/fulls/super_monsters.jpg" class="image">
+							<img src="images/gallery/thumbs/super_monsters.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Nicole Oliver</h3>
+						</div>
+					</article>
+					<article>
+						<a href="images/gallery/fulls/09.jpg" class="image">
+							<img src="images/gallery/thumbs/09.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Nicole Oliver</h3>
+						</div>
+					</article>
+					<article>
+						<a href="images/gallery/fulls/christmas_gift.jpg" class="image">
+							<img src="images/gallery/thumbs/christmas_gift.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Nicole Oliver</h3>
+						</div>
+					</article>
+					<article>
+						<a href="images/gallery/fulls/10.jpg" class="image">
+							<img src="images/gallery/thumbs/10.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Nicole Oliver</h3>
+						</div>
+					</article>
+					<article>
+						<a href="images/gallery/fulls/warcraft.jpg" class="image">
+							<img src="images/gallery/thumbs/warcraft.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Nicole Oliver</h3>
+						</div>
+					</article>
+					<article>
+						<a href="images/gallery/fulls/11.jpg" class="image">
+							<img src="images/gallery/thumbs/11.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Nicole Oliver</h3>
+						</div>
+					</article>
+					<article>
+						<a href="images/gallery/fulls/lanters.jpg" class="image">
+							<img src="images/gallery/thumbs/lanters.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Nicole Oliver</h3>
+						</div>
+					</article>
+					<article>
+						<a href="images/gallery/fulls/12.jpg" class="image">
+							<img src="images/gallery/thumbs/12.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>Nicole Oliver</h3>
+						</div>
+					</article>
+				</div>
+
+			</section>
+	
+	<!-- TemplateEndIf -->	
+	
+	<div id="wrapper">
+
+		<div id="main">
+
+			<!-- TemplateBeginEditable name="MainContent" -->
+
+			<!-- TemplateEndEditable -->
+
+			<footer class="wrapper style1 align-center">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://twitter.com/mouthnoize" class="icon brands style2 fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.instagram.com/noliver77/" class="icon brands style2 fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+						<li><a href="https://www.imdb.com/name/nm0646955/" class="icon brands style2 fa-imdb" target="_blank"><span class="label">IMDb</span></a></li>
+						<li><a href="contact.html" class="icon style2 fa-envelope" target="_blank"><span class="label" >Contact</span></a></li>
+					</ul>
+					<p>&copy; Copyright 2020. All Rights Reserved. www.NicoleOliver.com</p>
+				</div>
+			</footer>
+		</div>
+
+		<div id="sidebar">
+			<div class="inner">
+				
+				<nav id="menu">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">Bio/About</a></li>
+						<li><a href="oncamera.html">On Camera</a></li>
+						<li><a href="directing.html">Directing</a></li>
+						<li>
+							<span class="opener">Media</span>
+							<ul>
+								<li><a href="video.html">Video</a></li>
+								<li><a href="publicity.html">Publicity</a></li>
+							</ul>
+						</li>
+						<li><a href="animation.html">Animation</a></li>
+						<li><a href="voiceover.html">Voice Over</a></li>
+						<li><a href="audiobooks.html">Audiobooks</a></li>
+						<li><a href="charity.html">Charity</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+
+				<!--							
+				<footer id="footer">
+					<p class="copyright">&copy; Copyright 2020 <br/>  
+						<a href="http://NicoleOliver.com">
+							NicoleOliver.com</a> 
+					</p>
+				</footer>-->
+
+			</div>
+		</div>
+
+	</div>
+
+	
+	
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/jquery.scrollex.min.js"></script>
+<script src="../assets/js/jquery.scrolly.min.js"></script>
+<script src="../assets/js/browser.min.js"></script>
+<script src="../assets/js/breakpoints.min.js"></script>
+<script src="../assets/js/util.js"></script>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
