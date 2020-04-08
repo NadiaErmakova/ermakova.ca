@@ -1015,14 +1015,15 @@ body.is-preload .gallery.onload-fade-in article .image img {
         overflow: hidden;
 
         /* gallery image size*/
-        _width: 22.5rem;
         max-width: 75vw;
+		padding: 0 2px;
     }
 
         .gallery.style2 article .image {
             display: block;
             width: 100%;
-            border-radius: 0;
+			border: #87161c solid 1px;
+            border-radius: 5px;
         }
 
             .gallery.style2 article .image img {
@@ -1032,6 +1033,12 @@ body.is-preload .gallery.onload-fade-in article .image img {
             }
 
         .gallery.style2 article .caption {
+			border: transparent solid 1px;
+			border-radius: 5px;
+			background-clip: content-box;
+			background-origin: content-box;
+			box-sizing: border-box;
+			
             -moz-align-items: center;
             -webkit-align-items: center;
             -ms-align-items: center;
@@ -1060,7 +1067,7 @@ body.is-preload .gallery.onload-fade-in article .image img {
             height: 100%;
             background-color: rgba(0, 0, 0, 0.5);
             opacity: 0;
-            padding: 1rem;
+            padding: 0;
             z-index: 1;
             font-size: 0.8rem;
         }

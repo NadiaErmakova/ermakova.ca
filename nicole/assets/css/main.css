@@ -2394,5 +2394,34 @@ body {
     margin-top: 0;
     padding-top: 0; }
 
+.publicity .thumbnail p{
+	text-align:center;
+}
+.publicity .thumbnail {
+}
+/*override thumbnail blue border*/
+a.thumbnail:hover,
+a.thumbnail:focus {
+  border-color: #ddd;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.055);
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.055);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.055);
+}
 
-
+ul.publicity {
+	display: flex; 
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+}
+ul.publicity > li {
+	margin: 10px;
+	flex: auto;
+	list-style: none;
+	min-width: 200px;
+	text-align: center;
+}
+ul.publicity > li > a > p {
+	font-size: 0.8em;
+}
