@@ -1248,7 +1248,10 @@ input[type="radio"] + label:before {
   .image.left, .image.right {
     max-width: 50%; }
     .image.left img, .image.right img {
-      width: 100%; }
+      max-width: 100%; 
+	  /* nadya: restict */
+	  max-height: 1000px;
+  }
   .image.left {
     float: left;
     padding: 0 1.5em 1em 0;
@@ -2190,7 +2193,8 @@ body {
   display: -ms-flex;
   display: flex; }
   #banner h1 {
-    margin-top: -0.125em; }
+    margin-top: -0.125em;
+	}
   #banner .content {
     _padding: 7rem 7rem 5rem 7rem;
     padding: 5rem 5rem 3rem 5rem;
@@ -2424,4 +2428,20 @@ ul.publicity > li {
 }
 ul.publicity > li > a > p {
 	font-size: 0.8em;
+}
+
+
+.contact {
+	
+}
+
+.object-fit-cover {
+  -moz-object-fit: cover;
+  -webkit-object-fit: cover;
+  -ms-object-fit: cover;
+  object-fit: cover;
+  -moz-object-position: center;
+  -webkit-object-position: center;
+  -ms-object-position: center;
+  object-position: center;	
 }
