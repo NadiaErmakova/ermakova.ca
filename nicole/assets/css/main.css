@@ -144,7 +144,8 @@ a {
   text-decoration: none; }
   a:hover {
     border-bottom-color: #87161c;
-    color: #87161c !important; }
+    color: #87161c !important; 
+	}
     a:hover strong {
       color: inherit; }
 
