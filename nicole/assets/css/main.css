@@ -2431,6 +2431,9 @@ ul.publicity > li > a > p {
 	font-size: 0.8em;
 }
 
+ul.voiceover img {
+	max-width: 350px;
+}
 
 .contact {
 	
