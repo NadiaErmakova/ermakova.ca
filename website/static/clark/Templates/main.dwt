@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Clark Autobody</title>
+<!-- TemplateEndEditable -->
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="Clark Auto Body Ltd. is a Vancouver based ICBC Accredited auto body shop" content="" />
+<meta name="Clark Auto Body, Vancouver autoshop, ICBC, auto body shop, clark auto, autobody, auto repaire, collision repair services, Paint and dent repair, certified and licensed technicians, Computerized Colour Matching Technology, State-of-the-Art Down-Draft Spray Booths" content="" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<noscript>
+<link rel="stylesheet" href="../css/5grid/core.css" />
+<link rel="stylesheet" href="../css/style.css" />
+<link rel="stylesheet" href="../css/5grid/core-desktop.css" />
+<link rel="stylesheet" href="../css/5grid/core-1200px.css" />
+<link rel="stylesheet" href="../css/5grid/core-noscript.css" />
+<link rel="stylesheet" href="../css/style-desktop.css" />
+</noscript>
+<script src="../css/5grid/jquery.js"></script>
+<!--script src="../css/5grid/init.js?use=mobile,desktop,1000px&mobileUI=1&mobileUI.theme=none"></script-->
+<script src="../css/5grid/init.js?use=desktop,1000px&mobileUI=1&mobileUI.theme=none"></script>
+
+<!-- start google analitics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-48508603-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- end google analitics -->
+
+<!--[if IE 9]><link rel="stylesheet" href="css/style-ie9.css" /><![endif]-->
+<link rel="stylesheet" href="../css/mystyle.css" />
+</head>
+<body>
+<div id="header-wrapper">
+	<header id="header" class="5grid-layout">
+		<div class="row">
+			<div class="12u" id="logo"> 
+            <!-- Logo -->
+				<h1><a href="../index_old.html">CLARK Auto Body Ltd.</a></h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="12u" id="menu">
+					<ul>
+						<li><a href="../index.html">Home</a></li>
+						<li><a href="../about.html">About</a></li>
+						<li><a href="../services.html">Services</a></li>
+						<li><a href="../contact.html">Contact</a></li>
+					</ul>
+			</div>
+		</div>
+	</header>
+</div>
+<div id="page-wrapper">
+	<div class="5grid-layout">
+		<div id="feature-content">
+		<!-- TemplateBeginEditable name="EditRegion_page" -->
+		
+		
+		<!-- TemplateEndEditable -->
+		</div>
+	</div>
+</div>
+<div class="5grid-layout">
+	<div id="copyright">
+		<section>
+			<p>&copy; Clark Auto Body Ltd. 2015 | Created by <a href="http://www.ermakova.ca/" target="_blank">ermakova.ca</a></p>
+		</section>
+	</div>
+</div>
+</body>
+</html>
