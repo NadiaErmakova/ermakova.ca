@@ -1812,32 +1812,32 @@ ul.bullet-none {
   color: white;
   background-color: #2a8c53;
   background-image: none;
-  border-color: #227043;
+  border-color: #333;
   z-index: 99;
 }
 
 .btn-warning {
   color: white;
   background-color: #f36b21;
-  border-color: #fdcf0f;
+  border-color: #333;
 }
 
 .btn-warning.active, .btn-warning:hover, .btn-warning:active, .btn-warning:focus, .btn-warning:active:focus {
   color: white;
-  background-color: #f0c202;
-  border-color: #cca502;
+  background-color: #f36b21;
+  border-color: #f36b21;
 }
 
 .btn-warning.disabled, .btn-warning:disabled {
   background-color: #f36b21;
-  border-color: #fdcf0f;
+  border-color: #f36b21;
 }
 
 .btn-warning:active, .btn-warning.active, .show > .btn-warning.dropdown-toggle {
   color: white;
-  background-color: #f0c202;
+  background-color: #f36b21;
   background-image: none;
-  border-color: #cca502;
+  border-color: #f36b21;
   z-index: 99;
 }
 
@@ -8121,7 +8121,7 @@ hr.short {
 }
 
 .navbar-elixir {
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.98);
   margin-bottom: -59px;
   color: #2b2c27;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
