@@ -4021,6 +4021,10 @@ section {
   position: relative;
   padding: 7.5rem 0 3.5rem 0;
 }
+section.section2{
+	padding: 1rem 0 3.5rem 0;
+	
+}
 
 @media (max-width: 47.99em) {
   section {
