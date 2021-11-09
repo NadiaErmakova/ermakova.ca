@@ -89,9 +89,9 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
                             <ul class="navbar-nav ml-auto fs-1 fw-600">
-                                <li><a href="../">home</a>
+                                <li><a href="../index.html">home</a>
                                 </li>
-                                <li><a href="../about">about</a>
+                                <li><a href="../about.html">about</a>
                                 </li>
                                 <li><a href="javascript:void()">services</a>
 									<ul class="dropdown fs-0">
