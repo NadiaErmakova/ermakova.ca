@@ -69,15 +69,15 @@
 					</article>
 					<article>
 						<a href="../sculpture.html" class="image">
-							<img src="../images/gallery/home/23.jpg" alt="" />
+							<img src="../images/gallery/home/27.jpg" alt="" />
 						</a>
 						<div class="caption">
 							<h3>Zare Shahbazyan</h3>
 						</div>
 					</article>
 					<article>
-						<a href="../ceramic.html" class="image">
-							<img src="../images/gallery/home/17.jpg" alt="" />
+						<a href="../centerpieces.html" class="image">
+							<img src="../images/gallery/home/vase1.1.jpg" alt="" />
 						</a>
 						<div class="caption">
 							<h3>Zare Shahbazyan</h3>
@@ -85,7 +85,7 @@
 					</article>
 					<article>
 						<a href="../sculpture.html" class="image">
-							<img src="../images/gallery/home/24.jpg" alt="" />
+							<img src="../images/gallery/home/23.jpg" alt="" />
 						</a>
 						<div class="caption">
 							<h3>Zare Shahbazyan</h3>
@@ -133,7 +133,7 @@
 					</article>
 					<article>
 						<a href="../sculpture.html" class="image">
-							<img src="../images/gallery/home/27.jpg" alt="" />
+							<img src="../images/gallery/home/24.jpg" alt="" />
 						</a>
 						<div class="caption">
 							<h3>Zare Shahbazyan</h3>
@@ -212,7 +212,7 @@
 	<div id="wrapper">
 
 		<div id="main">
-
+	
 			<!-- TemplateBeginEditable name="MainContent" -->
 
 			<!-- TemplateEndEditable -->
@@ -232,7 +232,9 @@
 
 		<div id="sidebar">
 			<div class="inner">
-				
+					<header id="header">
+						<a href="index.html"><h1>Zare Shahbazyan</h1></a>
+					</header>		
 				<nav id="menu">
 					<ul>
 						<li><a href="index.html">Home</a></li>				
