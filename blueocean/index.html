@@ -1,39 +1,180 @@
-<!DOCTYPE html>
+<!--
+BlueOcean Website (from presentation content)
+-->
+
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BlueOcean LNG</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BlueOcean LNG — North Coast BC</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .hero-bg { background-size: cover; background-position: center; }
+    .glass { background: rgba(255,255,255,0.02); backdrop-filter: blur(6px); }
+  </style>
 </head>
-<body>
-  <header>
-    <h1>BlueOcean LNG</h1>
-    <p>North Coast, British Columbia</p>
+<body class="antialiased text-gray-800 bg-white">
+
+  <!-- NAV -->
+  <header class="fixed w-full z-40">
+    <nav class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-4 flex items-center justify-between">
+      <a href="#hero" class="text-xl font-semibold tracking-wide">BlueOcean LNG</a>
+      <div class="hidden md:flex gap-6 items-center">
+        <a href="#overview" class="hover:text-blue-600">Overview</a>
+        <a href="#site" class="hover:text-blue-600">Terminal Site</a>
+        <a href="#community" class="hover:text-blue-600">Community</a>
+        <a href="#environment" class="hover:text-blue-600">Environment</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </div>
+      <button id="menuBtn" class="md:hidden p-2 rounded-md focus:outline-none"> 
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </nav>
+    <div id="mobileMenu" class="md:hidden hidden bg-white/90 border-t glass">
+      <div class="px-6 py-4 flex flex-col gap-3">
+        <a href="#overview">Overview</a>
+        <a href="#site">Terminal Site</a>
+        <a href="#community">Community</a>
+        <a href="#environment">Environment</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
   </header>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="project.html">Project Overview</a>
-    <a href="environment.html">Environment</a>
-    <a href="pipeline.html">Pipeline</a>
-    <a href="shipping.html">Shipping</a>
-    <a href="contact.html">Contact</a>
-  </nav>
 
-  <div class="container">
-    <div class="hero">
-      <img src="images/site-overview.jpg" alt="BlueOcean LNG Site Overview">
+  <!-- HERO -->
+  <section id="hero" class="pt-20">
+    <div class="hero-bg" style="background-image:url('./images/home.jpg')">
+      <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-40">
+        <div class="bg-black/50 p-8 md:p-12 rounded-2xl max-w-3xl">
+          <h1 class="text-4xl md:text-5xl font-bold text-white leading-tight">BlueOcean LNG — North Coast British Columbia</h1>
+          <p class="mt-4 text-white/90">Developing a world-class LNG export terminal south of Stewart, BC with low environmental impact and strong community support.</p>
+          <div class="mt-6">
+            <a href="#overview" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-md font-medium">Learn More</a>
+          </div>
+        </div>
+      </div>
     </div>
-    <h2>Welcome to BlueOcean LNG</h2>
-    <p>BlueOcean Terminals (BOT) has selected an excellent site for an LNG export terminal on the north coast of British Columbia. Explore the sections to learn more about the project, environmental context, pipelines, and shipping advantages.</p>
-    <p>Our site south of Stewart, BC, features 270 hectares of land and 1.8 kilometers of deep-water shoreline, offering world-class access for LNG carriers without the need for dredging.</p>
-    <div class="hero">
-      <img src="images/terminal-location.jpg" alt="Terminal Location near Stewart BC">
-    </div>
-  </div>
+  </section>
 
-  <footer>
-    <p>&copy; 2025 BlueOcean LNG | All Rights Reserved</p>
+  <!-- OVERVIEW -->
+  <section id="overview" class="py-20">
+    <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-3xl font-semibold">Project Overview</h2>
+        <p class="mt-4 text-gray-600">BlueOcean Terminals (BOT) has an excellent site for an LNG export terminal on the north coast of British Columbia. The terminal site is approximately four kilometers south of the town of Stewart, BC. The 270-hectare site includes 1.8 kilometers of deep-water shoreline, ideal for LNG carriers without the need for dredging.</p>
+        <ul class="mt-6 space-y-2 text-gray-700">
+          <li>• 270-hectare terminal site</li>
+          <li>• 1.8 km of deep-water shoreline</li>
+          <li>• Largest LNG carriers can dock within 75 meters of shore</li>
+          <li>• Dive and ROV surveys show minimal sea life below tideline</li>
+        </ul>
+      </div>
+      <div class="rounded-xl overflow-hidden shadow-lg">
+        <img src="./images/blueocean_project.png" alt="Site overview" class="w-full h-72 object-cover">
+      </div>
+    </div>
+  </section>
+
+  <!-- TERMINAL SITE -->
+  <section id="site" class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+      <h3 class="text-2xl font-semibold">The Terminal Site</h3>
+      <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div>
+          <p class="text-gray-600">The BlueOcean site includes Marmot Bay and Marmot Fan, with deep-water access suitable for the largest LNG carriers. The area was previously logged and developed for mining infrastructure in the 1920s, providing a cleared base for new terminal construction.</p>
+          <p class="mt-4 text-gray-600">The seabed is primarily rock, gravel, and sediment, with little marine life, simplifying the permitting process.</p>
+        </div>
+        <div class="rounded-xl overflow-hidden shadow-lg">
+          <img src="./images/marmot_bay.jpg" alt="Marmot Bay" class="w-full h-72 object-cover">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMMUNITY -->
+  <section id="community" class="py-20">
+    <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h3 class="text-2xl font-semibold">Community of Stewart</h3>
+        <p class="mt-4 text-gray-600">Stewart, BC is a supportive industrial community of ~500 residents. The town provides key infrastructure including an airport, medical clinic, fire department, and port facilities. Stewart World Port has experience unloading pipe and modules for LNG projects, ensuring readiness for BlueOcean operations.</p>
+      </div>
+      <div class="rounded-xl overflow-hidden shadow-lg">
+        <img src="./images/stewart.jpg" alt="Stewart town" class="w-full h-72 object-cover">
+      </div>
+    </div>
+  </section>
+
+  <!-- ENVIRONMENT -->
+  <section id="environment" class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+      <div class="order-2 md:order-1">
+        <h3 class="text-2xl font-semibold">Environmental Considerations</h3>
+        <p class="mt-4 text-gray-600">BOT selected Stewart in part because of its low environmental impact. The port facilities are located in areas designated to have moderate or low habitat productivity. Stewart’s Bear River is naturally a low productivity salmon habitat, making the site more compatible with environmental protection goals.</p>
+      </div>
+      <div class="order-1 md:order-2 rounded-xl overflow-hidden shadow-lg">
+        <img src="./images/environment.jpg" alt="Environmental studies" class="w-full h-72 object-cover">
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-20">
+    <div class="max-w-5xl mx-auto px-6 sm:px-8 lg:px-12">
+      <h3 class="text-2xl font-semibold">Contact Us</h3>
+      <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+        <form class="space-y-4 bg-white p-6 rounded-xl shadow">
+          <label class="block">
+            <span class="text-sm text-gray-700">Name</span>
+            <input class="mt-1 block w-full rounded-md border-gray-200" placeholder="Your name">
+          </label>
+          <label class="block">
+            <span class="text-sm text-gray-700">Email</span>
+            <input class="mt-1 block w-full rounded-md border-gray-200" placeholder="you@example.com">
+          </label>
+          <label class="block">
+            <span class="text-sm text-gray-700">Message</span>
+            <textarea class="mt-1 block w-full rounded-md border-gray-200" rows="4" placeholder="How can we help?"></textarea>
+          </label>
+          <div class="text-right">
+            <button type="button" class="inline-block bg-blue-600 text-white px-5 py-2 rounded-md">Send message</button>
+          </div>
+        </form>
+
+        <div class="space-y-6">
+          <div class="bg-white p-6 rounded-xl shadow">
+            <h4 class="font-semibold">Head Office</h4>
+            <p class="mt-2 text-sm text-gray-600">BlueOcean LNG<br>123 Coastal Drive<br>Stewart, BC</p>
+          </div>
+          <div class="bg-white p-6 rounded-xl shadow">
+            <h4 class="font-semibold">Inquiries</h4>
+            <p class="mt-2 text-sm text-gray-600">peidsvik@blueoceanterminals.ca<br>+1 (604) 555-0123</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-8 bg-white border-t">
+    <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 flex flex-col md:flex-row justify-between items-center gap-4">
+      <div class="text-sm text-gray-600">© BlueOcean LNG 2025. All rights reserved.</div>
+    </div>
   </footer>
+
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    menuBtn.addEventListener('click', ()=> { mobileMenu.classList.toggle('hidden'); });
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', function(e){
+        const target = document.querySelector(this.getAttribute('href'));
+        if(target){ e.preventDefault(); target.scrollIntoView({behavior:'smooth'}); }
+        if(window.innerWidth < 768) mobileMenu.classList.add('hidden');
+      })
+    });
+  </script>
 </body>
 </html>
