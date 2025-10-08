@@ -8,3 +8,17 @@ nav a:hover {text-decoration: none;}
 .hero img {max-width: 100%; border-radius: 8px;}
 footer {background: #003366; color: #fff; text-align: center; padding: 10px; margin-top: 20px;}
 
+.hero-bg { 
+    background-size: cover; 
+    background-position: center; 
+}
+.logo-bg {
+    background-size: cover; 
+    background-position: center; 
+    background-image: url(images/logo.jpg); 
+    text-indent: -1000px;
+    width: 220px;
+    height: 68px;
+}
+
+.glass { background: rgba(255,255,255,0.02); backdrop-filter: blur(6px); }
