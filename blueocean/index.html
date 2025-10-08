@@ -9,6 +9,7 @@ BlueOcean Website (from presentation content)
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>BlueOcean LNG — North Coast BC</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
   <style>
     .hero-bg { background-size: cover; background-position: center; }
     .glass { background: rgba(255,255,255,0.02); backdrop-filter: blur(6px); }
@@ -17,9 +18,9 @@ BlueOcean Website (from presentation content)
 <body class="antialiased text-gray-800 bg-white">
 
   <!-- NAV -->
-  <header class="fixed w-full z-40 bg-gray-50">
+  <header class="fixed w-full z-40">
     <nav class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-4 flex items-center justify-between">
-      <a href="#hero" class="text-xl font-semibold tracking-wide">BlueOcean LNG</a>
+      <a href="#hero" class="text-2xl font-semibold tracking-wide ">BlueOcean LNG</a>
       <div class="hidden md:flex gap-6 items-center">
         <a href="#overview" class="hover:text-blue-600">Overview</a>
         <a href="#site" class="hover:text-blue-600">Terminal Site</a>
@@ -158,7 +159,7 @@ BlueOcean Website (from presentation content)
 
   <!-- FOOTER -->
   <footer class="py-8 bg-white border-t">
-    <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 flex flex-col md:flex-row justify-between items-center gap-4">
+    <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 flex flex-col md:flex-col justify-between items-center gap-4">
       <div class="text-sm text-gray-600">© BlueOcean LNG 2025. All rights reserved.</div>
     </div>
   </footer>
